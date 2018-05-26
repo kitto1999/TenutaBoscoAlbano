@@ -4,4 +4,15 @@
  </head>
  <body>
   <p> Il numero di bicchieri di vino che berrai oggi è </p>
-    
+    <button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("demo")
+    x.innerHTML = Math.floor((Math.random() * 100) + 1);
+}
+</script>
+</body>
+</html>
